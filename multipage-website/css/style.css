@@ -296,6 +296,7 @@ nav button {
   height: fit-content;
   background: var(--color-primary);
   cursor: pointer;
+  transition: all 5s ease;
 }
 
 .faq h4 {
@@ -311,6 +312,11 @@ nav button {
 .faq p {
   margin-top: 0.8rem;
   display: none;
+}
+
+.faq.open {
+  background: #00bf8e;
+  transition: all 5s ease;
 }
 
 .faq.open p {
