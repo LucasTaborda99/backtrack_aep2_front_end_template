@@ -314,11 +314,6 @@ nav button {
   display: none;
 }
 
-.faq.open {
-  background: #00bf8e;
-  transition: all 5s ease;
-}
-
 .faq.open p {
   display: block;
 }
